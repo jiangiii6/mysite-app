@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: normal !important;
+}
+
+.row {
+    position: sticky;
+    width: 100%;
+    height: 3.5rem;
+    padding: 10px 0px;
+    background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1));
+}
+
+.header {
+    width: 90%;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.header__logo {
+    width: 6rem;
+    height: 3.2rem;
+    background-image: url('../src/assets/images/logo.svg');
+    background-repeat: no-repeat;
+}
+
+.header__items {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+main {
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url('../src/assets/images/apple-1838564_1920-main.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* padding: 14.7% 0; */
+    color: white;
+    text-align: center;
+
+}
+
+.detail {
+    margin-top: 5rem;
+}
+
+#hello {
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+
+#name {
+    font-size: 100px;
+    margin-bottom: 2rem;
+}
+
+#person-description {
+    font-size: 33px;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    width: 150px;
+    margin: 2rem;
+}
+
+
+.social {
+    margin-top: 1rem;
+    ;
+}
+
+.footer-container {
+    color: white;
+    background-color: black;
+    /* position: absolute; */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+img {
+    background-color: #8a8a8a;
+    width: 2rem;
+}
+
+.inner-container__items {
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    padding: 3% 0;
+    background: linear-gradient( rgba(225, 225, 225, 0.94), rgba(225, 225, 225, 0.94) ), url('../src/assets/images/aboutbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
