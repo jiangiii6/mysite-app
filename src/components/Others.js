@@ -5,6 +5,7 @@ function Others() {
     <div className="about">
       <h1>About Me</h1>
       <h3>Sharing a little bit of my story...</h3>
+      
       <h2>General Overview</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
