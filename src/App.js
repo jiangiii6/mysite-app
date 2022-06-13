@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Others from './components/Others';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import './index.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      </main>
    <Others />
    <Portfolio />
+   <Contact />
     <Footer />
     </Routes>
   );
