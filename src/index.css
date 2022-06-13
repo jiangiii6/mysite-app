@@ -1,135 +1,278 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: normal !important;
+  font-family: sans-serif;
+  font-weight: normal !important;
 }
 
 .row {
-    position: sticky;
-    width: 100%;
-    height: 3.5rem;
-    padding: 10px 0px;
-    background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1));
+  position: sticky;
+  width: 100%;
+  height: 3.5rem;
+  padding: 10px 0px;
+  background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1));
 }
 
 .header {
-    width: 90%;
-
+  width: 90%;
 }
 
-
 nav {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 .header__logo {
-    width: 6rem;
-    height: 3.2rem;
-    background-image: url('../src/assets/images/logo.svg');
-    background-repeat: no-repeat;
+  width: 6rem;
+  height: 3.2rem;
+  background-image: url("../src/assets/images/logo.svg");
+  background-repeat: no-repeat;
+  margin-left: 2rem;
 }
 
 .header__items {
-    display: flex;
-    width: 20rem;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 main {
-    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url('../src/assets/images/apple-1838564_1920-main.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    /* padding: 14.7% 0; */
-    color: white;
-    text-align: center;
-
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("../src/assets/images/apple-1838564_1920-main.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  /* padding: 14.7% 0; */
+  color: white;
+  text-align: center;
 }
 
 .detail {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 #hello {
-    font-size: 28px;
-    margin-bottom: 2rem;
+  font-size: 28px;
+  margin-bottom: 2rem;
 }
 
 #name {
-    font-size: 100px;
-    margin-bottom: 2rem;
+  font-size: 100px;
+  margin-bottom: 2rem;
 }
 
 #person-description {
-    font-size: 33px;
-    margin-bottom: 2rem;
+  font-size: 33px;
+  margin-bottom: 2rem;
 }
 
 button {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    /* padding: 20px; */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2rem;
-    width: 150px;
-    margin: 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  width: 150px;
+  margin: 2rem;
 }
 
-
 .social {
-    margin-top: 1rem;
-    ;
+  margin-top: 1rem;
 }
 
 .footer-container {
-    color: white;
-    background-color: black;
-    /* position: absolute; */
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-
+  color: white;
+  background-color: black;
+  /* position: absolute; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 
-
 img {
-    background-color: #8a8a8a;
-    width: 2rem;
+  background-color: #8a8a8a;
+  width: 2rem;
 }
 
 .inner-container__items {
-    display: flex;
-    width: 50rem;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  width: 50rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 .inner-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about{
-    padding: 3% 0;
-    background: linear-gradient( rgba(225, 225, 225, 0.94), rgba(225, 225, 225, 0.94) ), url('../src/assets/images/aboutbackground.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+.about {
+  padding: 3% 0;
+  background: linear-gradient(
+      rgba(225, 225, 225, 0.94),
+      rgba(225, 225, 225, 0.94)
+    ),
+    url("../src/assets/images/aboutbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 2rem 10rem;
+  height: 100vh;
+}
+
+.about__box {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.about__row {
+  margin-top: 2rem;
+}
+
+.label {
+  /* margin-top: 2rem; */
+  margin-bottom: 1rem;
+}
+
+.about__btn {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 150px;
+  margin: 2rem;
+}
+
+.summary {
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.summary img {
+  background-color: transparent;
+}
+
+.summary__img {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.summary__row {
+  display: flex;
+  padding: 5rem 5rem;
+}
+.summary__box {
+  display: flex;
+  width: 50%;
+}
+.description {
+  width: 50%;
+}
+
+.description h3 {
+  margin-bottom: 1rem;
+}
+
+.projects {
+  height: 100vh;
+  color:white;
+  background-color: #59585d;
+  
+}
+
+.projects__box {
+  padding: 3.5rem 5rem;
+}
+
+.projects__title {
+  text-align: center;
+}
+
+.projects-header {
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+}
+
+.p1 {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(../src/assets/images/luvtalklogo.png);
+  background-position: center center;
+  width: 33%;
+  margin-right: 2rem;
+}
+
+.p2 {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../src/assets/images/logo.svg);
+  background-position: center center;
+  width: 33%;
+  margin-right: 2rem;
+}
+
+.p3 {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../src/assets/images/mlbproject.png);
+  background-position: center center;
+  width: 33%;
+}
+
+.card h3{
+    padding-top: 96.3944px;
+}
+
+
+.projects p {
+    font-family: "Roboto", Helvetica, serif;
+    padding: 0 10px;
+    margin: 0 0 10px;
+}
+
+.projects .btn-border {
+    background-color: transparent;
+    width: 100%;
+  
+    color: white;
+    font-family: "Roboto", Helvetica, serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    border: 2px solid white;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.project-more-info{
+margin-top: 2rem;
+}
+
+.see-more-button{
+    text-align: center;
+    margin-top: 6rem;;
 }

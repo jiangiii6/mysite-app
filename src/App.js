@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Others from './components/Others';
+import Portfolio from './components/Portfolio';
 import './index.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Home />  
      </main>
    <Others />
+   <Portfolio />
     <Footer />
     </Routes>
   );
